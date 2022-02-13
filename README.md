@@ -1,4 +1,4 @@
-This repo contains files that are part of the post at [How to Mock Dependencies in your Flutter app for Testing](https://levelup.gitconnected.com/send-push-notifications-from-a-flutter-app-to-devices-with-firebase-9c84ce58fe30).
+This repo contains files that are part of the post at [How to Mock Dependencies in your Flutter app for Testing](https://levelup.gitconnected.com/how-to-mock-dependencies-in-your-flutter-app-for-testing-54c49251740a).
 
 # Content
 
