@@ -1,16 +1,13 @@
-# flutter_dependency_mocking
+This repo contains files that are part of the post at [How to Mock Dependencies in your Flutter app for Testing](https://levelup.gitconnected.com/send-push-notifications-from-a-flutter-app-to-devices-with-firebase-9c84ce58fe30).
 
-A new Flutter project.
+# Content
 
-## Getting Started
+The repository contains a Flutter app with a test class to demonstrate the use of mocks with the [Mockito](https://pub.dev/packages/mockito) package. If you want to simplify your tests by not caring about dependencies, have a look at it.
 
-This project is a starting point for a Flutter application.
+# Support
 
-A few resources to get you started if this is your first Flutter project:
+If you like this post or my work in general, feel free to support me in any way ❤
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- You can [buy me a coffee](https://www.buymeacoffee.com/xeladu) ☕
+- You can [donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=JPWK39GGPAAFQ) 🎁
+- You can [engage in the discussion](https://xeladu.medium.com) 📣
