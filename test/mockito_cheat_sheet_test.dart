@@ -11,7 +11,7 @@ void main() {
   final mock = MockDataStore();
   final sut = DataService(mock);
 
-  test("Setup", () async {
+  test("Some tests with mockito", () async {
     //////////////////////////////////
     // --- Define return values --- //
     //////////////////////////////////
