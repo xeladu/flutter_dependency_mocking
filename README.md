@@ -4,6 +4,8 @@ This repo contains files that are part of the post at [How to Mock Dependencies 
 
 The repository contains a Flutter app with a test class to demonstrate the use of mocks with the [Mockito](https://pub.dev/packages/mockito) package. If you want to simplify your tests by not caring about dependencies, have a look at it.
 
+There is also a [Cheat Sheet](https://github.com/xeladu/flutter_dependency_mocking/blob/main/test/mockito_cheat_sheet_test.dart) with examples for the most common mockito use cases.
+
 # Support
 
 If you like this post or my work in general, feel free to support me in any way ❤
