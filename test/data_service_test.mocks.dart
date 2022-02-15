@@ -2,6 +2,8 @@
 // in flutter_dependency_mocking/test/data_service_test.dart.
 // Do not manually edit this file.
 
+import 'dart:async' as _i3;
+
 import 'package:flutter_dependency_mocking/data_store.dart' as _i2;
 import 'package:mockito/mockito.dart' as _i1;
 
@@ -32,10 +34,30 @@ class MockDataStore extends _i1.Mock implements _i2.DataStore {
       super.noSuchMethod(Invocation.method(#remove, [identifier]),
           returnValueForMissingStub: null);
   @override
-  void update(String? identifier, dynamic data) =>
-      super.noSuchMethod(Invocation.method(#update, [identifier, data]),
-          returnValueForMissingStub: null);
+  void update(String? identifier, {dynamic data}) => super.noSuchMethod(
+      Invocation.method(#update, [identifier], {#data: data}),
+      returnValueForMissingStub: null);
   @override
   dynamic get(String? identifier) =>
       super.noSuchMethod(Invocation.method(#get, [identifier]));
+  @override
+  _i3.Future<void> addAsync(String? identifier, dynamic data) =>
+      (super.noSuchMethod(Invocation.method(#addAsync, [identifier, data]),
+          returnValue: Future<void>.value(),
+          returnValueForMissingStub: Future<void>.value()) as _i3.Future<void>);
+  @override
+  _i3.Future<void> removeAsync(String? identifier) =>
+      (super.noSuchMethod(Invocation.method(#removeAsync, [identifier]),
+          returnValue: Future<void>.value(),
+          returnValueForMissingStub: Future<void>.value()) as _i3.Future<void>);
+  @override
+  _i3.Future<void> updateAsync(String? identifier, {dynamic data}) =>
+      (super.noSuchMethod(
+          Invocation.method(#updateAsync, [identifier], {#data: data}),
+          returnValue: Future<void>.value(),
+          returnValueForMissingStub: Future<void>.value()) as _i3.Future<void>);
+  @override
+  _i3.Future<dynamic> getAsync(String? identifier) =>
+      (super.noSuchMethod(Invocation.method(#getAsync, [identifier]),
+          returnValue: Future<dynamic>.value()) as _i3.Future<dynamic>);
 }
