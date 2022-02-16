@@ -1,4 +1,4 @@
-This repo contains files that are part of the post at [How to Mock Dependencies in your Flutter app for Testing](https://levelup.gitconnected.com/how-to-mock-dependencies-in-your-flutter-app-for-testing-54c49251740a).
+This repo contains files that are part of the posts [How to Mock Dependencies in your Flutter app for Testing](https://levelup.gitconnected.com/how-to-mock-dependencies-in-your-flutter-app-for-testing-54c49251740a) and [Flutter Mockito Cheat Sheet](https://levelup.gitconnected.com/flutter-mockito-package-cheat-sheet-ef49254ec62a).
 
 # Content
 
