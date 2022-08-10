@@ -6,6 +6,8 @@ The repository contains a Flutter app with a test class to demonstrate the use o
 
 There is also a [Cheat Sheet](https://github.com/xeladu/flutter_dependency_mocking/blob/main/test/mockito_cheat_sheet_test.dart) with examples for the most common mockito use cases.
 
+If you want to learn more about testing with Flutter apps, check out [my article series on Medium](https://xeladu.medium.com/list/test-your-flutter-app-aabad9825b7f).
+
 # Support
 
 If you like this post or my work in general, feel free to support me in any way ❤
